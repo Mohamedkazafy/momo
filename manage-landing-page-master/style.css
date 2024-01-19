@@ -170,6 +170,7 @@ button {
     border: none;
     border-radius: 25px;
     box-shadow: 0px 4px 12px 0px var(--Bright-Red);
+    outline: none;
 }
 
 .containers {
@@ -248,6 +249,10 @@ footer .brands .contancts img[src$=".svg"]:hover{
 }
 .navigation li{
     list-style: none;
+}
+.navigation li:hover{
+    cursor: pointer;
+    color: var(--Bright-Red);
 }
 footer p{
     opacity: 0.4;
