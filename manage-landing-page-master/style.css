@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+:root {
+    --Bright-Red: hsl(12, 88%, 59%);
+    --Dark-Blue: hsl(228, 39%, 23%);
+    --Dark-Grayish-Blue: hsl(227, 12%, 61%);
+    --Dark-Grayish-Blue: hsl(227, 12%, 61%);
+    --Very-Dark-Blue: hsl(233, 12%, 13%);
+    --Very-Pale-Red: hsl(13, 100%, 96%);
+    --Vary-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+    background-image: linear-gradient(100deg, var(--Vary-Light-Gray), var(--Very-Pale-Red));
+
+}
+
+nav {
+    margin-top: 25px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--Very-Dark-Blue);
+}
+
+nav a:hover {
+    opacity: 0.6;
+    transition: ease 0.5s;
+}
+
+.btns {
+    background-color: var(--Bright-Red);
+    color: #fff;
+    width: 8%;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: 0px 4px 12px 0px var(--Bright-Red);
+}
+
+.acontainer {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    width: 100%;
+    aspect-ratio: 2.5;
+}
+
+.sub-container-one {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sub-container-one h1 {
+    color: var(--Dark-Blue);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sub-container-one p {
+    opacity: 0.6;
+}
+
+.sub-container-two {
+    width: 50%;
+}
+
+.btnz {
+    width: 50%;
+    aspect-ratio: 3;
+    color: #fff;
+    background: var(--Bright-Red);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 4px 12px 0px var(--Bright-Red);
+}
+
+.sec-container {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    width: 100%;
+    aspect-ratio: 1.5;
+}
+
+.text-part {
+    width: 30%;
+    display: flex;
+    aspect-ratio: 0.75;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.text-part h1 {
+    color: var(--Dark-Blue);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.text-part p {
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.points {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.numbers {
+    background-color: var(--Bright-Red);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 10%;
+    text-align: center;
+    aspect-ratio: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.details {
+    opacity: 0.5;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 95%;
+    aspect-ratio: 3.75;
+}
+
+.trust-section h1 {
+    text-align: center;
+    color: var(--Dark-Blue);
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--Bright-Red);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 4px 12px 0px var(--Bright-Red);
+}
+
+.containers {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3f2fd;
+}
+.trust-section{
+    text-align: center;
+}
+
+.abtn{
+    width: 10%;
+    aspect-ratio: 3;
+    border-radius: 25px; 
+}
+
+.opinion-container{
+    background-color: var(--Vary-Light-Gray);
+}
+
+.last-before-footer{
+    background-color: var(--Bright-Red);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    /* aspect-ratio: 4; */
+    margin-top: 10%;
+    padding: 30px;
+    align-items: center;
+}
+.last-before-footer button{
+    background-color: #fff;
+    color: var(--Bright-Red);
+    border-radius: 25px;
+    width: 7%;
+    aspect-ratio: 3;
+}
+.last-before-footer h1{
+    width: 65%
+}
+
+footer{
+    background-color: var(--Dark-Blue);
+    color: #fff;
+    display: flex !important; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+}
+footer .brands{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+}
+.navigation li{
+    list-style: none;
+}
+footer p{
+    opacity: 0.4;
+}
+
+footer input{
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+footer button{
+    height: 45px;
+    width: 15%;
+    border-radius: 25px;
+    aspect-ratio: 0;
+}
+/* Your existing styles here */
+
+/* Media Query for screens between 375px and 850px */
+@media screen and (max-width: 850px) {
+    .acontainer {
+        flex-direction: column;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .sub-container-one,
+    .sub-container-two,
+    .sec-container,
+    .text-part,
+    .points,
+    .title,
+    .details,
+    .last-before-footer h1,
+    footer .brands,
+    .navigation {
+        width: 100%;
+    }
+
+    .btns,
+    .btnz,
+    .numbers,
+    .abtn,
+    footer button {
+        width: 100%;
+    }
+
+    .last-before-footer {
+        padding: 15px;
+    }
+
+    .trust-section h1,
+    footer p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .containers,
+    .opinion-container,
+    .last-before-footer {
+        margin-top: 25px;
+    }
+
+    .navigation {
+        gap: 20px;
+    }
+}
