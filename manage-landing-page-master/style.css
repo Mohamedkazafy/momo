@@ -222,13 +222,25 @@ footer{
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    height: 100%;
+    height: 30vh;
 }
 footer .brands{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-self: stretch;
 }
+
+footer .brands .contancts{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .brands .contancts img[src$=".svg"]:hover{
+    fill:var(--Bright-Red);
+}
+
 .navigation{
     display: flex;
     gap: 70px;
